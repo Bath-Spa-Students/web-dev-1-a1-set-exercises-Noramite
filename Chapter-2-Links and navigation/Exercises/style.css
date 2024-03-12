@@ -1,0 +1,188 @@
+* {
+    background-color: #cae9ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* this part is responsible for the nav menu in the top of the page */
+.nav {
+    background-color: aliceblue;
+    padding: 10px;
+}
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li {
+    display: inline;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+}
+.nav ul li a:hover {
+    color: #001d3d;
+    background-color: #cae9ff;
+}
+.title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* this part is the interactable button */
+button {
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 4px;
+   font-size: 1.2rem;
+}
+button:hover {
+    color: #001d3d;
+    background-color: aliceblue;
+}
+
+/* this is for the about and plot section which is essentially just a align center for the text inside a box */
+.About {
+    margin-top: 50px;
+    border: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.About h1 {
+    text-align: center;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.About p {
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+/* this sections is a list for the cast (design is the same as everything else) */
+.Cats {
+    margin-top: 50px;
+    border: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: inline-block;
+    columns: 2;
+    column-gap: 300px;
+    padding-right: 100px;
+}
+.Cats h2 {
+    margin-left: 30px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.Cats ul {
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+    padding-left: 100px;
+}
+.Cats ul li {
+    background-color: aliceblue;
+}
+
+/* simple direction team display section */
+.team {
+    margin-top: 50px;
+    border: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.team p {
+    background-color: aliceblue;
+}
+.team p b {
+    background-color: aliceblue;
+}
+
+/* reviews from myanimelist (fixed) */
+.review {
+    margin-top: 50px;
+    border: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.review h2 {
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.review h4 {
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+}
+.review p {
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+/* link to officail website] */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    border: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer a{
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+footer:hover {
+    color: #001d3d;
+    background-color: #cae9ff;
+    transition: 2s;
+}
