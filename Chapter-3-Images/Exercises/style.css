@@ -1,0 +1,50 @@
+* {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Absolutely broken fix this later */
+body {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+#credits {
+    text-align: center;
+}
+
+#credits a {
+    display: block;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 50px;
+}
+
+  /* this is the most optimized way i could think of making this */
+.image {
+    max-width: 20%;
+    height: 20%;
+    margin-top: 50px;
+    border-width: 5px;
+    padding: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(156, 156, 156);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.image:nth-of-type(1) {
+    filter: grayscale(100%);
+}
+
+.image:nth-of-type(2) {
+    filter: sepia(100%);
+}
+
+.image:nth-of-type(3) {
+    filter: hue-rotate(189deg);
+}
+
