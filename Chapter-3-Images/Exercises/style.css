@@ -10,19 +10,19 @@ body {
     font-size: 25px;
 }
 
-.authors p {
-    position: center;
-    max-width: 20%;
-    height: 20%;
-    margin-top: 50px;
-    border-width: 5px;
-    padding: 5px;
-    margin-left: 90px;
-    margin-right: 90px;
-    background-color: rgb(69, 0, 0);
-    padding: 8px;
-    border-radius: 15px;                                                    
+.authors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.authors p {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
 
   /* this is the most optimized way i could think of making this */
 .image {
@@ -32,8 +32,8 @@ body {
     margin-top: 50px;
     border-width: 5px;
     padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 105px;
+    margin-right: 105px;
     background-color: rgb(156, 156, 156);
     padding: 8px;
     border-radius: 15px;
