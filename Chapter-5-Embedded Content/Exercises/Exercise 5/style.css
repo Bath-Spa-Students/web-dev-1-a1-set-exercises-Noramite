@@ -1,0 +1,12 @@
+/* simple css to center the video and add a border */
+video {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* changes background color... thats it */
+body {
+    background-color: rgb(35, 35, 64);
+}

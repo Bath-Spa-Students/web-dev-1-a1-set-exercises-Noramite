@@ -1,0 +1,58 @@
+body { 
+  font-family: Arial, sans-serif; 
+}
+
+/* this is the blue white design of the web page */
+.header { 
+  background-color: #17072b; 
+  padding:10px;
+  font-size: 35px;
+  color: white; 
+  text-align: center; 
+}
+
+/* this is the navigation bg */
+.nav { 
+  background-color: #17072b;
+  padding: 15x; 
+  text-align: center;
+}
+
+/* nav text formatting */
+.nav a { 
+  margin: 10px; 
+  text-decoration: none; 
+  color: white;
+  font-size: 45px; 
+}
+
+.main { 
+  display: flex; 
+}
+
+/* code to format the left side */
+.left { 
+  flex: 1; 
+  padding: 20px;
+  font-size: 30px; 
+}
+
+/* code to format the right side */
+.right { 
+  background-color: #172d66;
+  color: white; 
+  flex: 1; 
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/* basic footer */
+.footer { 
+  background-color: #8c15e9;
+  text-align: center; 
+  padding: 1px;
+  color: white;
+  font-size: 25px;
+}
